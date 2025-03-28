@@ -60,7 +60,7 @@ export default function EmailInput() {
           onChange={(e) => setEmail(e.target.value)}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
-          placeholder="Join the waitlist"
+          placeholder="You're in!"
           className={`
             w-full px-3 py-2 pl-8 border-2 rounded-lg
             transition-all duration-300 ease-in-out bg-stone-50
